@@ -1,0 +1,118 @@
+body {
+    background: rgb(1, 106, 112);
+    background: linear-gradient(
+        0deg,
+        rgba(1, 106, 112, 1) 0%,
+        rgba(0, 51, 54, 1) 90%
+    );
+    color: #eeeeee;
+    font-family: "Kanit", sans-serif;
+}
+
+.navbar-text {
+    color: #eeeeee;
+}
+
+.navbar-text:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    background-color: #eeeeee;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url("../img/background.png");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: #eeeeee;
+}
+
+.btn {
+    margin-top: 50px;
+    padding: 13px;
+    width: 120px;
+    height: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    padding-bottom: 250px;
+}
+
+.title {
+    padding-top: 100px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-nav > li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #eeeeee;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+.divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: "";
+    padding: 3px;
+    background-color: rgb(255, 0, 0);
+    margin: 5px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-check-label {
+    margin-right: 10px;
+}
+
+.up {
+    padding-bottom: 10px;
+}
+
+.logo {
+    padding-bottom: 5px;
+}
